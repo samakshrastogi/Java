@@ -1,0 +1,20 @@
+package com.apnacollege;
+import java.util.Scanner;
+
+public class Calculater {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the First value:");
+        double a = sc.nextDouble();
+        System.out.println("Enter the Second value:");
+        double b = sc.nextDouble();
+        
+        System.out.println("Sum is = "+(a+b));
+        System.out.println("Mul is = "+(a*b));
+        System.out.println("Sub is = "+(a-b));
+        System.out.println("Div is = "+(a/b));
+       
+
+        
+    }
+}
