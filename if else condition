@@ -1,0 +1,28 @@
+public class format {
+    
+    public static void main() {
+        int age1 =sc.nextInt();
+        if(age1 >18){
+            System.out.println("Adult");
+        } else {
+            System.out.println("Not Adult");
+        }
+        int x = sc.nextInt();
+        if(x %2 ==0){
+            System.out.println("Even Number");
+        } else{
+            System.out.println("Odd Number");
+        }
+        int z = sc.nextInt();
+        int y = sc.nextInt();
+        if (z ==y) {
+            System.out.println("Equal");
+        } else {
+            if (z>y) {
+                System.out.println("c is greater");
+            } else {
+                System.out.println("c is lesser");
+            }
+        }
+    }
+}
