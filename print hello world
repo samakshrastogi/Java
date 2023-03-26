@@ -1,0 +1,13 @@
+package com.apnacollege;
+import java.util.*;
+
+public class Main{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        //print
+        System.out.print("Hello World\n");
+        System.out.println("Hello World");
+        System.out.println("Hello\nWorld");
+        System.out.println("*\n**\n***\n****");
+        }
+ }
