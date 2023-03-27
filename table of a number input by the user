@@ -1,0 +1,11 @@
+public class format {
+    
+    public static void main() {
+        //Question 2:
+        //Print the table of a number input by the user.
+        int p=sc.nextInt();
+        for(int m =1; m <=10;m++){
+            System.out.println(p*m);
+        }
+    }
+}
