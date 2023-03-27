@@ -1,0 +1,13 @@
+public class format {
+    
+    public static void main() {
+        //Question 1:
+        //Print the Sum of First Natural Numbers.
+        int n=sc.nextInt();
+        int sum1 = 0;
+        for(int f=1;f<=n;f++){
+            sum1=sum1+f;
+        }
+        System.out.print(sum1);
+    }
+}
