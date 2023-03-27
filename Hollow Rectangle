@@ -1,0 +1,14 @@
+public class format {
+    
+    public static void main() {
+        System.out.println("Hollow Rectangle");
+        for(int i=1;i<=b;i++){
+            for(int j=1;j<=a;j++){
+                if(i==1 || j==1|| i==b || j==a){
+                    System.out.print("*");
+                }else{
+                    System.out.print(" ");
+                }
+            }
+    }
+}
