@@ -1,0 +1,17 @@
+public class format {
+    
+    public static void main() {
+        for(int button1=0;button1<5;button1++){
+            System.out.print(button1);
+            System.out.println(" SAMAKSH RASTOGI");
+        }
+        int e =sc.nextInt();
+        while (e <5) {
+            System.out.println(e);
+            e=e+1;
+        }
+        do{
+            System.out.println("KOMAL PRIYA");
+        } while(e<5);
+    }
+}
