@@ -1,0 +1,12 @@
+public class format {
+    
+    public static void main() {
+        System.out.print("Even Numbers = ");
+        for(int i=2;i<=a;i++){
+            int even = i;
+            if(even%2==0){
+                System.out.print(even+",");
+            }
+        }
+    }
+}
