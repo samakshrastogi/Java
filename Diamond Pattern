@@ -1,0 +1,26 @@
+public class format {
+    
+    public static void main() {
+         System.out.println("Diamnd Pattern");
+        for(int i=1;i<=b;i++){
+            for(int j=1;j<=b-i;j++){
+                System.out.print(" ");
+            }
+            for(int j=1;j<=2*i-1 ;j++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+        for(int i=b;i>=1;i--){
+            for(int j=1;j<=b-i;j++){
+                System.out.print(" ");
+            }
+            for(int j=1;j<=2*i-1 ;j++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+        System.out.println();
+    }
+    }
+}
