@@ -1,0 +1,33 @@
+public class format {
+    
+    public static void main() {
+        System.out.println("Buttrfly Pattrn (By Di)");
+        
+        for(int i=1;i<=b;i++){
+            for (int j=1;j<=i;j++){
+             System.out.print("*");   
+            }
+            int d=2*(b-i);
+            for(int j=1;j<=d;j++){
+                System.out.print(" ");
+            }
+            for(int j=1;j<=i;j++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+        for(int i=b;i>=1;i--){
+            for(int j=1;j<=i;j++){
+                System.out.print("*");
+            }
+            int d=2*(b-i);
+            for(int j=1;j<=d;j++){
+                System.out.print(" ");
+            }
+            for(int j=1;j<=i;j++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+}
